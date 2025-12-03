@@ -9,13 +9,13 @@ from tools_market import (
 mcp = FastMCP("crypto-market-stdio-server")
 
 # Register the comprehensive set of crypto market tools and the instruction
-mcp.register(get_crypto_price)
-mcp.register(compare_cryptos)
-mcp.register(search_cryptocurrency)
-mcp.register(list_common_tickers)
-mcp.register(get_market_overview)
-mcp.register(visualize_crypto_comparison)
-mcp.register(get_system_instruction)
+# register tools
+mcp.tool()(get_crypto_price)
+mcp.tool()(compare_cryptos)
+mcp.tool()(search_cryptocurrency)
+mcp.tool()(list_common_tickers)
+mcp.tool()(get_market_overview)
+mcp.tool()(visualize_crypto_comparison)
 
 if __name__ == "__main__":
     print("Crypto Market Stdio Server running. Waiting for client input on stdin...")
