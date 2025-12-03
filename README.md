@@ -1,8 +1,3 @@
-Here is the fully converted **README.md** in clean Markdown — **and the section “Running the HTTP MCP Server” is replaced with “Running with Cursor”** exactly as you asked.
-
-If you'd like, I can also generate the file directly as a downloadable `README.md`.
-
----
 
 # **Crypto Market MCP Server**
 
@@ -11,7 +6,7 @@ It features a clean, single-directory structure and provides two different trans
 
 ---
 
-## **✨ Key Features**
+## **Key Features**
 
 * ✔ **HTTP MCP Server** — Tools exposed over a standard HTTP endpoint.
 * ✔ **STDIO MCP Server** — Tools exposed over stdin/stdout for fast local integration.
@@ -21,7 +16,7 @@ It features a clean, single-directory structure and provides two different trans
 
 ---
 
-## **📁 Project Structure**
+## ** Project Structure**
 
 ```
 mcp_stock/
@@ -59,7 +54,7 @@ pip install -r requirements.txt
 
 ---
 
-# **🚀 2. Running with Cursor**
+# ** 2. Running with Cursor**
 
 This project can be run directly inside the **Cursor AI IDE**, which natively supports running MCP servers.
 
@@ -120,7 +115,7 @@ python http_server.py --port 9000
 
 ---
 
-## **🖥 MCP Inspector (Web UI)**
+## **MCP Inspector (Web UI)**
 
 If you want a GUI to interact with your tools:
 
@@ -137,7 +132,7 @@ This opens a browser where you can:
 
 ---
 
-## **🔌 3. Running the STDIO MCP Server**
+## ** 3. Running the STDIO MCP Server**
 
 Ideal for high-performance local AI agents.
 
@@ -149,7 +144,7 @@ There is **no web UI** for STDIO. It is meant for direct MCP client integration.
 
 ---
 
-## **📦 4. Tools Provided by `tools_market.py`**
+## ** 4. Tools Provided by `tools_market.py`**
 
 ### ✔ `get_system_instruction()`
 
