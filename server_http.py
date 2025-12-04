@@ -77,7 +77,7 @@ if __name__ == "__main__":
     print(f"Endpoint: http://{args.host}:{args.port}/mcp")
 
     mcp.run(
-        transport="http",    # or "streamable-http"
+        transport="streamable-http",    # or "streamable-http"
         host=args.host,
         port=args.port,
     )

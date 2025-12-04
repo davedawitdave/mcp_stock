@@ -1,9 +1,8 @@
 from fastmcp import FastMCP
 from tools_market import (
     get_crypto_price, compare_cryptos, search_cryptocurrency,
-    list_common_tickers, get_market_overview, visualize_crypto_comparison,
-    get_system_instruction # Register the new instruction tool
-)
+    list_common_tickers, get_market_overview, visualize_crypto_comparison
+    )
 
 # Initialize the FastMCP server for stdio transport and update the name
 mcp = FastMCP("crypto-market-stdio-server")
